@@ -22,20 +22,22 @@ body {
     z-index: 0;
 
 }
-
+/*HEADER*/
 header {
     height: 70vh;
     width: 100vw;
     background-image: url(./images/montaña.jpg);
+    
     background-position: center;
     background-size: cover;
-
+    display: flex;
+    justify-content: center;
 }
 
 .main-title {
     display: flex;
     justify-items: center;
-    position: relative;
+
     justify-content: center;
     padding-top: 150px;
     flex-direction: column; /* flex colum para posicionar en columna */
@@ -45,6 +47,37 @@ header {
  font-size: 60px;
 
 }
+.social ul{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    list-style: none;
+}
+.social ul a i{
+    font-size:x-large;
+    color: #dedcd7;
+}
+.social ul a i:hover{
+    color: #fff;
+}
+/*HEADER*/
+
+/*FOOTER*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
+.footer-content ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+/*FOOTER*/
 
 
 
