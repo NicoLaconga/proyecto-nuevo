@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+}
+
+body {
+    color: #dedcd7;
+    height: 100%;
+    overflow: hidden;
+    background: #242321;
+    min-height: 100vh;
+    position: relative;
+    z-index: 0;
+
+}
+
+header {
+    height: 70vh;
+    width: 100vw;
+    background-image: url(./images/montaña.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.main-title {
+    display: flex;
+    justify-items: center;
+    position: relative;
+    justify-content: center;
+    padding-top: 150px;
+    flex-direction: column; /* flex colum para posicionar en columna */
+    
+}
+.main-title h1{
+ font-size: 60px;
+
+}
+
+
+
+
