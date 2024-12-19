@@ -79,7 +79,7 @@ footer{
 }
 /*FOOTER*/
 
-ul {
+.lista-nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -87,11 +87,11 @@ ul {
     background-color: #333;
   }
   
-  li {
+  .lista-item {
     float: left;
   }
   
-  li a {
+  .lista-item a {
     display: block;
     color: white;
     text-align: center;
@@ -101,7 +101,7 @@ ul {
     
   }
   
-  li a:hover {
+  .lista-item a:hover {
     background-color: #111;
   }
 
