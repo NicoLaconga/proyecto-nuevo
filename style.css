@@ -112,6 +112,11 @@ footer{
 }
 .skills{
     height: 100vh;
+
+}
+
+.modal{
+    display: none;
     
 }
 
